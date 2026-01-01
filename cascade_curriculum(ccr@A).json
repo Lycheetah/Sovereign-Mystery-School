@@ -1,0 +1,277 @@
+{
+  "mindfulness": {
+    "name": "8-Week Mindfulness-Based Stress Reduction (MBSR)",
+    "domain": "meditation",
+    "duration_weeks": 8,
+    "evidence_level": 5,
+    "components": [
+      {
+        "name": "Sitting Meditation",
+        "duration_minutes": 20,
+        "frequency_per_week": 5,
+        "instructions": [
+          "Find comfortable seated position",
+          "Focus on breath at nostrils",
+          "When mind wanders, gently return to breath",
+          "No judgment of thoughts or feelings"
+        ]
+      },
+      {
+        "name": "Body Scan",
+        "duration_minutes": 15,
+        "frequency_per_week": 3,
+        "instructions": [
+          "Lie down comfortably",
+          "Systematically scan body from toes to head",
+          "Notice sensations without changing them",
+          "Breathe into areas of tension"
+        ]
+      },
+      {
+        "name": "Walking Meditation",
+        "duration_minutes": 15,
+        "frequency_per_week": 2,
+        "instructions": [
+          "Walk slowly, mindfully",
+          "Feel each footstep completely",
+          "Notice body movement",
+          "Return attention when it wanders"
+        ]
+      }
+    ],
+    "predicted_outcomes": {
+      "Anxiety": {
+        "effect_size": 0.63,
+        "direction": "decrease"
+      },
+      "Depression": {
+        "effect_size": 0.53,
+        "direction": "decrease"
+      },
+      "Psychological Distress": {
+        "effect_size": 0.59,
+        "direction": "decrease"
+      },
+      "Wellbeing": {
+        "effect_size": 0.47,
+        "direction": "increase"
+      }
+    },
+    "reality_anchors": [
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "scale": "GAD-7",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 14.7,
+        "expected_delta": -13.23,
+        "expected_timeline": 56,
+        "validation_strength": "VERY_STRONG"
+      },
+      {
+        "id": "depression",
+        "name": "Depression",
+        "scale": "PHQ-9",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 18.9,
+        "expected_delta": -14.31,
+        "expected_timeline": 56,
+        "validation_strength": "STRONG"
+      },
+      {
+        "id": "wellbeing",
+        "name": "Wellbeing",
+        "scale": "WEMWBS",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 30.8,
+        "expected_delta": 26.32,
+        "expected_timeline": 56,
+        "validation_strength": "STRONG"
+      }
+    ],
+    "contraindications": [
+      "Active suicidal ideation without professional support",
+      "Acute psychotic episode",
+      "Recent severe trauma without stabilization"
+    ],
+    "red_flags": [
+      "Increasing dissociation",
+      "Worsening anxiety/panic",
+      "Intrusive traumatic memories",
+      "Suicidal thoughts emerging"
+    ],
+    "supervision_required": false,
+    "total_time_commitment_minutes": 1400,
+    "expected_average_effect_size": 0.5549999999999999
+  },
+  "shadow_work": {
+    "name": "12-Week Jungian Shadow Integration Protocol",
+    "domain": "shadow_work",
+    "duration_weeks": 12,
+    "evidence_level": 3,
+    "components": [
+      {
+        "name": "Shadow Journaling",
+        "duration_minutes": 30,
+        "frequency_per_week": 3,
+        "instructions": [
+          "Identify trigger that caused strong reaction",
+          "Name the emotion without judgment",
+          "Ask: 'What part of me does this reflect?'",
+          "Write without censoring",
+          "Look for patterns over time"
+        ]
+      },
+      {
+        "name": "Active Imagination (Jungian)",
+        "duration_minutes": 20,
+        "frequency_per_week": 2,
+        "instructions": [
+          "Relax in quiet space",
+          "Allow image/symbol to emerge",
+          "Engage in dialogue with image",
+          "Record interaction immediately after",
+          "Reflect on meaning without forcing"
+        ]
+      },
+      {
+        "name": "Integration Practice",
+        "duration_minutes": 25,
+        "frequency_per_week": 2,
+        "instructions": [
+          "Review week's shadow discoveries",
+          "Identify disowned qualities/strengths",
+          "Practice embodying integrated aspect",
+          "Notice changes in self-perception",
+          "Document integration markers"
+        ]
+      }
+    ],
+    "predicted_outcomes": {
+      "Self-Acceptance": {
+        "effect_size": 0.72,
+        "direction": "increase"
+      },
+      "Anxiety": {
+        "effect_size": 0.58,
+        "direction": "decrease"
+      },
+      "Relationship Quality": {
+        "effect_size": 0.65,
+        "direction": "increase"
+      },
+      "Psychological Integration": {
+        "effect_size": 0.8,
+        "direction": "increase"
+      }
+    },
+    "reality_anchors": [
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "scale": "GAD-7",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 14.7,
+        "expected_delta": -12.18,
+        "expected_timeline": 84,
+        "validation_strength": "VERY_STRONG"
+      },
+      {
+        "id": "relationship_quality",
+        "name": "Relationship Quality",
+        "scale": "RAS",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 15.4,
+        "expected_delta": 18.2,
+        "expected_timeline": 84,
+        "validation_strength": "MODERATE"
+      }
+    ],
+    "contraindications": [
+      "Uncontrolled bipolar disorder",
+      "Active psychosis",
+      "Recent major trauma without stabilization",
+      "Severe personality disorders without therapeutic support"
+    ],
+    "red_flags": [
+      "Increasing self-hatred",
+      "Obsessive rumination on shadow content",
+      "Breakdown of daily functioning",
+      "Emerging self-harm ideation"
+    ],
+    "supervision_required": true,
+    "total_time_commitment_minutes": 2160,
+    "expected_average_effect_size": 0.6875
+  },
+  "breathwork": {
+    "name": "6-Week Breathwork for Stress & Anxiety",
+    "domain": "breathwork",
+    "duration_weeks": 6,
+    "evidence_level": 4,
+    "components": [
+      {
+        "name": "Box Breathing (4-4-4-4)",
+        "duration_minutes": 10,
+        "frequency_per_week": 7,
+        "instructions": [
+          "Inhale for 4 counts",
+          "Hold for 4 counts",
+          "Exhale for 4 counts",
+          "Hold for 4 counts",
+          "Repeat for 10 minutes"
+        ]
+      },
+      {
+        "name": "Coherent Breathing (5-5)",
+        "duration_minutes": 15,
+        "frequency_per_week": 5,
+        "instructions": [
+          "Breathe in for 5 seconds",
+          "Breathe out for 5 seconds",
+          "Maintain steady rhythm",
+          "Focus on smooth transitions"
+        ]
+      }
+    ],
+    "predicted_outcomes": {
+      "Anxiety": {
+        "effect_size": 0.55,
+        "direction": "decrease"
+      },
+      "HRV": {
+        "effect_size": 0.6,
+        "direction": "increase"
+      },
+      "Perceived Stress": {
+        "effect_size": 0.5,
+        "direction": "decrease"
+      }
+    },
+    "reality_anchors": [
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "scale": "GAD-7",
+        "measurement_type": "SUBJECTIVE_SCALE",
+        "baseline": 14.7,
+        "expected_delta": -11.55,
+        "expected_timeline": 42,
+        "validation_strength": "VERY_STRONG"
+      }
+    ],
+    "contraindications": [
+      "Severe respiratory conditions",
+      "Recent heart surgery",
+      "Uncontrolled hypertension"
+    ],
+    "red_flags": [
+      "Dizziness or fainting",
+      "Chest pain",
+      "Severe shortness of breath",
+      "Hyperventilation syndrome"
+    ],
+    "supervision_required": false,
+    "total_time_commitment_minutes": 870,
+    "expected_average_effect_size": 0.5499999999999999
+  }
+}
