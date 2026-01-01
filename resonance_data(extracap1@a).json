@@ -1,0 +1,36 @@
+{
+  "sessions": [
+    {
+      "session_id": "demo_session",
+      "start_time": "2026-01-01T08:05:21.361193",
+      "end_time": "2026-01-01T08:05:21.361780",
+      "quality_metrics": {
+        "coherence": 0.9668229529982433,
+        "emergence": 0.0,
+        "entanglement": 0.4963175559958038,
+        "codependency_risk": 0.0,
+        "breakthroughs": 1,
+        "sovereignty_maintained": 0.55,
+        "bidirectional_learning": 0.75
+      },
+      "resonance_signature": "exploration_79f22f064cf8d62a",
+      "num_interactions": 4
+    }
+  ],
+  "meta_patterns": {
+    "exploration": {
+      "count": 1,
+      "avg_metrics": {
+        "coherence": 0.9668229529982433,
+        "emergence": 0.0,
+        "entanglement": 0.4963175559958038,
+        "codependency_risk": 0.0,
+        "breakthroughs": 1.0,
+        "sovereignty_maintained": 0.55,
+        "bidirectional_learning": 0.75
+      },
+      "typical_duration": 9.783333333333333e-06
+    }
+  },
+  "generated_at": "2026-01-01T08:05:21.363985"
+}
