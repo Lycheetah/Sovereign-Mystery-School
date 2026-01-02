@@ -1,0 +1,10 @@
+# FILE: requirements.txt
+numpy>=1.21.0
+matplotlib>=3.5.0
+networkx>=2.8.0
+scipy>=1.8.0
+scikit-learn>=1.1.0  # For PCA and other ML tools
+pygame>=2.1.0  # For potential VR/visualization
+tqdm>=4.64.0  # For progress bars
+pandas>=1.4.0  # For data analysis
+plotly>=5.10.0  # For interactive visualizations
