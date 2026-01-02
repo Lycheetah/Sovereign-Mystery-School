@@ -1,0 +1,293 @@
+{
+  "modules": {
+    "foundation_body_sovereignty": {
+      "id": "foundation_body_sovereignty",
+      "name": "Body Sovereignty & Consent",
+      "description": "Learn to inhabit your body, set boundaries, and practice consent in all areas of life.",
+      "domain": "Foundation",
+      "difficulty": "BEGINNER",
+      "time_commitment": "15 min/day",
+      "duration_weeks": 12,
+      "prerequisites": [],
+      "learning_objectives": [
+        {
+          "description": "Identify body sensations without judgment",
+          "measurable": true,
+          "measurement_method": "Body scan self-assessment"
+        },
+        {
+          "description": "Communicate clear boundaries",
+          "measurable": true,
+          "measurement_method": "Role-play exercises"
+        },
+        {
+          "description": "Distinguish 'yes' from 'maybe' from 'no'",
+          "measurable": true,
+          "measurement_method": "Somatic awareness test"
+        }
+      ],
+      "practices": [
+        "Body scan meditation",
+        "Boundary setting exercises",
+        "Consent practice"
+      ],
+      "readings": [],
+      "research_backing": 1.5,
+      "current_layer": "FOUNDATION",
+      "contraindications": [],
+      "safety_notes": "Trauma survivors should work with therapist alongside this course"
+    },
+    "meditation_mindfulness_basic": {
+      "id": "meditation_mindfulness_basic",
+      "name": "Mindfulness Meditation Fundamentals",
+      "description": "Learn shamatha (concentration) and vipassana (insight) meditation.",
+      "domain": "Meditation",
+      "difficulty": "BEGINNER",
+      "time_commitment": "30 min/day",
+      "duration_weeks": 8,
+      "prerequisites": [],
+      "learning_objectives": [
+        {
+          "description": "Maintain focus on breath for 10 minutes",
+          "measurable": true,
+          "measurement_method": "Timed meditation session"
+        },
+        {
+          "description": "Notice thoughts without following them",
+          "measurable": true,
+          "measurement_method": "Mental noting practice"
+        },
+        {
+          "description": "Reduce reactivity to emotions",
+          "measurable": true,
+          "measurement_method": "Pre/post psychological assessment"
+        }
+      ],
+      "practices": [
+        "Breath meditation",
+        "Body scan",
+        "Walking meditation",
+        "Mental noting"
+      ],
+      "readings": [],
+      "research_backing": 1.3,
+      "current_layer": "MIDDLE",
+      "contraindications": [
+        "Active psychosis",
+        "Severe dissociation without therapist"
+      ],
+      "safety_notes": "Start with 5 minutes, increase gradually"
+    },
+    "psychology_shadow_work": {
+      "id": "psychology_shadow_work",
+      "name": "Shadow Work Intensive",
+      "description": "Integrate disowned parts of self through Jungian active imagination and parts work.",
+      "domain": "Psychological Integration",
+      "difficulty": "INTERMEDIATE",
+      "time_commitment": "30 min/day",
+      "duration_weeks": 12,
+      "prerequisites": [
+        "foundation_body_sovereignty",
+        "meditation_mindfulness_basic"
+      ],
+      "learning_objectives": [
+        {
+          "description": "Identify personal shadow patterns",
+          "measurable": true,
+          "measurement_method": "Projection tracking"
+        },
+        {
+          "description": "Dialogue with rejected parts",
+          "measurable": false,
+          "measurement_method": null
+        },
+        {
+          "description": "Reduce judgment of others",
+          "measurable": true,
+          "measurement_method": "Pre/post bias assessment"
+        }
+      ],
+      "practices": [
+        "Active imagination",
+        "Dream journaling",
+        "Projection work",
+        "Parts dialogue"
+      ],
+      "readings": [],
+      "research_backing": 1.7,
+      "current_layer": "FOUNDATION",
+      "contraindications": [
+        "Unstable mental health",
+        "Recent trauma without support"
+      ],
+      "safety_notes": "Recommend working with therapist during this course"
+    },
+    "meditation_jhanas": {
+      "id": "meditation_jhanas",
+      "name": "Jhana States (Meditative Absorption)",
+      "description": "Develop concentration to access jhana 1-4, states of deep meditative absorption.",
+      "domain": "Meditation",
+      "difficulty": "ADVANCED",
+      "time_commitment": "60 min/day",
+      "duration_weeks": 24,
+      "prerequisites": [
+        "meditation_mindfulness_basic"
+      ],
+      "learning_objectives": [
+        {
+          "description": "Sustain focus for 45+ minutes",
+          "measurable": true,
+          "measurement_method": "Timed sessions"
+        },
+        {
+          "description": "Access jhana 1 reliably",
+          "measurable": false,
+          "measurement_method": "Self-report + instructor verification"
+        },
+        {
+          "description": "Understand jhana factors",
+          "measurable": true,
+          "measurement_method": "Written assessment"
+        }
+      ],
+      "practices": [
+        "Extended sitting",
+        "Jhana practice",
+        "Retreat attendance"
+      ],
+      "readings": [],
+      "research_backing": 1.6,
+      "current_layer": "MIDDLE",
+      "contraindications": [
+        "Epilepsy (check with doctor)",
+        "Dissociative disorders"
+      ],
+      "safety_notes": "Not for beginners. Requires solid shamatha foundation."
+    },
+    "energy_reiki": {
+      "id": "energy_reiki",
+      "name": "Reiki Level 1 (Evidence-Based)",
+      "description": "Learn Reiki as nervous system co-regulation, not 'energy channeling'.",
+      "domain": "Energy Healing",
+      "difficulty": "INTERMEDIATE",
+      "time_commitment": "2 hr/week",
+      "duration_weeks": 12,
+      "prerequisites": [
+        "foundation_body_sovereignty"
+      ],
+      "learning_objectives": [
+        {
+          "description": "Self-regulate nervous system",
+          "measurable": true,
+          "measurement_method": "HRV measurement"
+        },
+        {
+          "description": "Provide grounded presence",
+          "measurable": true,
+          "measurement_method": "Co-regulation assessment"
+        },
+        {
+          "description": "Set appropriate boundaries",
+          "measurable": true,
+          "measurement_method": "Ethics exam"
+        }
+      ],
+      "practices": [
+        "Self-Reiki",
+        "Partner exchanges",
+        "Grounding techniques"
+      ],
+      "readings": [],
+      "research_backing": 0.61,
+      "current_layer": "EDGE",
+      "contraindications": [],
+      "safety_notes": "Framed as psychology/touch, not supernatural. No grandiose claims."
+    },
+    "death_doula": {
+      "id": "death_doula",
+      "name": "Death Doula Certification",
+      "description": "Professional training for end-of-life support and sacred dying practices.",
+      "domain": "Death Studies",
+      "difficulty": "EXPERT",
+      "time_commitment": "full-time intensive",
+      "duration_weeks": 20,
+      "prerequisites": [
+        "psychology_shadow_work",
+        "foundation_body_sovereignty"
+      ],
+      "learning_objectives": [
+        {
+          "description": "Recognize active dying symptoms",
+          "measurable": true,
+          "measurement_method": "Medical assessment"
+        },
+        {
+          "description": "Hold vigil without collapse",
+          "measurable": true,
+          "measurement_method": "Distress tolerance measure"
+        },
+        {
+          "description": "Support families through grief",
+          "measurable": true,
+          "measurement_method": "Practical exam"
+        }
+      ],
+      "practices": [
+        "Vigil holding",
+        "Family support",
+        "Ritual facilitation",
+        "After-death care"
+      ],
+      "readings": [],
+      "research_backing": 1.4,
+      "current_layer": "MIDDLE",
+      "contraindications": [
+        "Unresolved death trauma",
+        "Active grief"
+      ],
+      "safety_notes": "Requires strong boundaries and self-care practices"
+    }
+  },
+  "paths": {
+    "Consciousness Foundations": {
+      "name": "Consciousness Foundations",
+      "description": "Start here: Body sovereignty, meditation basics, shadow work",
+      "module_sequence": [
+        "foundation_body_sovereignty",
+        "meditation_mindfulness_basic",
+        "psychology_shadow_work"
+      ],
+      "estimated_months": 8,
+      "target_audience": "Complete beginners to mystery school work"
+    },
+    "Advanced Meditation Track": {
+      "name": "Advanced Meditation Track",
+      "description": "From basics to jhanas to formless realms",
+      "module_sequence": [
+        "meditation_mindfulness_basic",
+        "meditation_jhanas"
+      ],
+      "estimated_months": 8,
+      "target_audience": "Serious meditators seeking depth"
+    },
+    "Death Work Professional": {
+      "name": "Death Work Professional",
+      "description": "Complete training for death doula certification",
+      "module_sequence": [
+        "foundation_body_sovereignty",
+        "meditation_mindfulness_basic",
+        "psychology_shadow_work",
+        "death_doula"
+      ],
+      "estimated_months": 14,
+      "target_audience": "Healthcare workers, hospice volunteers, spiritual guides"
+    }
+  },
+  "domains": [
+    "Foundation",
+    "Meditation",
+    "Psychological Integration",
+    "Energy Healing",
+    "Death Studies"
+  ]
+}
